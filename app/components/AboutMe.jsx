@@ -19,7 +19,7 @@ function AboutMe() {
         </div>
       </div>
       <div className="w-full lg:h-[100vh] lg:w-[70%] py-20  lg:py-20 px-5 bg-slate-950 flex justify-center items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-x-10 lg:gap-y-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="about-card w-[290px] h-[200px] overflow-hidden border border-black bg-pink-950 relative transition-all duration-300">
             <Image src={lahore} alt="Lahore" className="w-full" />
             <div className="w-full h-12 card-tag absolute bottom-0 flex justify-center items-center bg-purple-950 transition-all duration-300">
