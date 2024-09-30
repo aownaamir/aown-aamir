@@ -24,7 +24,7 @@ function Hero() {
             An engineering student with a passion for software development.
           </p>
           <button className="w-[160px] h-[50px] text-sm mt-3 bg-purple-950  ">
-            Contact Me
+            Start a project
           </button>
         </div>
       </div>
