@@ -5,3 +5,9 @@
 .profile-shadow {
   box-shadow: 20px 20px 0px 0px rgb(2, 6, 23);
 }
+
+.about-card:hover .card-tag {
+  bottom: -30px;
+  opacity: 0;
+  /* transition-duration: 300ms; */
+}
