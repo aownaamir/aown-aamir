@@ -11,3 +11,8 @@
   opacity: 0;
   /* transition-duration: 300ms; */
 }
+.about-card:hover .about-info {
+  /* bottom: -30px; */
+  opacity: 1;
+  /* transition-duration: 300ms; */
+}
