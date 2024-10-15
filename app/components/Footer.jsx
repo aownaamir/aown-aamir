@@ -24,7 +24,7 @@ function Footer() {
             <span className="text-3xl text-white">
               <TbWorld />
             </span>
-            <span className="text-lg text-white">aownaamir.vercel.app</span>
+            <span className="text-lg text-white">aown-aamir.vercel.app</span>
           </li>
           <li className="flex justify-center items-center gap-2">
             <span className="text-3xl text-white">
