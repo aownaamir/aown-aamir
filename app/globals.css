@@ -5,6 +5,12 @@
 .profile-shadow {
   box-shadow: 20px 20px 0px 0px rgb(2, 6, 23);
 }
+.project-shadow-slate {
+  box-shadow: 10px 10px 0px 0px rgb(2, 6, 23);
+}
+.project-shadow-purple {
+  box-shadow: 10px 10px 0px 0px rgb(59, 7, 100);
+}
 
 .about-card:hover .card-tag {
   width: 100%;
@@ -58,23 +64,24 @@
 }
 
 .hobby-card:hover .right-angle-triangle-tl {
-  border-top: 100px solid rgb(2, 6, 23);
-  border-right: 100px solid transparent;
+  border-top: 0px solid rgb(2, 6, 23);
+  border-right: 0px solid transparent;
 }
 
 .hobby-card:hover .right-angle-triangle-br {
-  border-bottom: 100px solid rgb(2, 6, 23);
-  border-left: 100px solid transparent;
+  border-bottom: 0px solid rgb(2, 6, 23);
+  border-left: 0px solid transparent;
 }
 .hobby-card:hover .right-angle-triangle-tr {
-  border-top: 100px solid rgb(2, 6, 23);
-  border-left: 100px solid transparent;
+  border-top: 0px solid rgb(2, 6, 23);
+  border-left: 0px solid transparent;
 }
 
 .hobby-card:hover .right-angle-triangle-bl {
-  border-bottom: 100px solid rgb(2, 6, 23);
-  border-right: 100px solid transparent;
+  border-bottom: 0px solid rgb(2, 6, 23);
+  border-right: 0px solid transparent;
 }
 .hobby-card:hover .q-mark {
+  @apply rotate-180;
   opacity: 0;
 }
