@@ -12,6 +12,15 @@
   box-shadow: 10px 10px 0px 0px rgb(59, 7, 100);
 }
 
+.star-container {
+  display: flex;
+}
+.single-star {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
 .about-card:hover .card-tag {
   width: 100%;
   height: 100%;

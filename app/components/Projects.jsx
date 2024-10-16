@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { projects } from "../data/data";
 import ProjectCard from "./ProjectCard";
 function Projects() {

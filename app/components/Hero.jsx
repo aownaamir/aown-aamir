@@ -1,25 +1,10 @@
-import Image from "next/image";
-import profilePic from "@/public/images/Aown.jpg";
+import HeroImage from "./HeroImage";
 
 function Hero() {
   return (
     <div className="relative  w-full h-screen flex flex-col lg:flex-row justify-center items-center">
       <div className="lg:hidden lg:h-full lg:w-[50%] w-full h-[40%] bg-purple-950 flex justify-center items-center">
-        <div className="w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] relative">
-          <div className="w-[200px] h-[200px] lg:w-[330px] lg:h-[330px] absolute bottom-0 right-0 bg-slate-950"></div>
-          <Image
-            src={profilePic}
-            alt="Aown"
-            className="w-[200px] h-[200px] lg:w-[330px] lg:h-[330px] absolute top-0 left-0"
-          />
-        </div>
-        {/* <div className="profile-shadow">
-          <Image
-            src={profilePic}
-            alt="Aown"
-            className="w-[200px] h-[200px] lg:w-[330px] lg:h-[330px]"
-          />
-        </div> */}
+        <HeroImage />
       </div>
       <div className="lg:h-full lg:w-[60%] h-[70%] px-5 bg-slate-950 flex justify-center items-center">
         <div className="flex flex-col text-slate-100 text-center justify-center items-center gap-4">
@@ -35,14 +20,7 @@ function Hero() {
         </div>
       </div>
       <div className="hidden lg:flex  lg:h-full lg:w-[40%] w-full h-[50%] bg-purple-950  justify-center items-center">
-        <div className="w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] relative">
-          <div className="w-[200px] h-[200px] lg:w-[330px] lg:h-[330px] absolute bottom-0 right-0 bg-slate-950"></div>
-          <Image
-            src={profilePic}
-            alt="Aown"
-            className="w-[200px] h-[200px] lg:w-[330px] lg:h-[330px] absolute top-0 left-0"
-          />
-        </div>
+        <HeroImage />
       </div>
     </div>
   );
