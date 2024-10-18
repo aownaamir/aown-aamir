@@ -2,8 +2,8 @@
 import { useState } from "react";
 import Star from "./Star";
 
-function StarRating() {
-  const [rating, setRating] = useState(0);
+function StarRating({ rating, setRating }) {
+  // const [rating, setRating] = useState(0);
   const [tempRating, setTempRating] = useState(0);
   function handleRating(rate) {
     setRating(rate);

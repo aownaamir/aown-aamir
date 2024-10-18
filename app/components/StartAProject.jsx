@@ -1,14 +1,13 @@
-import Image from "next/image";
-import { FaRegStar } from "react-icons/fa";
-
-import profilePic from "@/public/images/Aown.jpg";
 import { testimonials } from "../data/data";
 import ReviewCard from "./ReviewCard";
 import ContactForm from "./ContactForm";
 
 function StartAProject() {
   return (
-    <div className="py-20 px-5 bg-slate-950 flex flex-col justify-center items-center gap-20">
+    <div
+      className="py-20 px-5 bg-slate-950 flex flex-col justify-center items-center gap-20"
+      id="start-a-project"
+    >
       <h1 className="text-4xl text-white text-center font-bold capitalize">
         Start a project with me!
       </h1>

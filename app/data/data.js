@@ -1,7 +1,10 @@
-import lahore from "@/public/images/Lahoresq.jpg";
-import islamabad from "@/public/images/Islamabadsq.jpg";
-import nust from "@/public/images/NUSTsq.jpg";
-import gcu from "@/public/images/GCUsq.jpg";
+import lahore from "/public/Lahoresq.jpg";
+import islamabad from "/public/Islamabadsq.jpg";
+import nust from "/public/NUSTsq.jpg";
+import gcu from "/public/GCUsq.jpg";
+import taha from "/public/taha.jpg";
+import attique from "/public/attique.jpeg";
+import abdullah from "/public/abdullah.jpeg";
 import Paint from "../svgs/Paint";
 import Web from "../svgs/Web";
 import Freelancer from "../svgs/Freelancer";
@@ -9,7 +12,6 @@ import Engineer from "../svgs/Engineer";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { IoMailOutline } from "react-icons/io5";
-import profilePic from "@/public/images/Aown.jpg";
 
 const hobbies = ["swimming", "coding", "horse riding"];
 
@@ -19,8 +21,7 @@ const aboutMe = [
     title: "Lahore",
     description:
       "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
-    img: profilePic,
-    lahore,
+    img: lahore,
   },
   {
     id: 1,
@@ -43,6 +44,20 @@ const aboutMe = [
       "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
     img: islamabad,
   },
+  // {
+  //   id: 4,
+  //   title: "Islamabad",
+  //   description:
+  //     "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+  //   img: islamabad,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Islamabad",
+  //   description:
+  //     "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+  //   img: islamabad,
+  // },
 ];
 
 const workExperience = [
@@ -50,28 +65,28 @@ const workExperience = [
     id: 0,
     title: "Lead Frontend Engineer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+      "Developed frontend for various sites which are currently live, making sites ready to become fully suitable for backend implementation.",
     svg: Paint,
   },
   {
     id: 2,
     title: "MERN Developer Intern",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+      "Focused on both front-end and back-end technologies like React.js, Node.js and Next.js. Worked on web scraping, web crawling, and web animations.",
     svg: Web,
   },
   {
     id: 3,
     title: "Freelance Web Developer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+      "Providing web development services to both local and global clients. Passionate about creating fully client satisfied products.",
     svg: Freelancer,
   },
   {
     id: 4,
     title: "Power Engineer Intern",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+      "Conducted research on various topics related to electrical circuits and designed an electrical power component using AutoCAD 3D modeling.",
     svg: Engineer,
   },
 ];
@@ -86,21 +101,21 @@ const projects = [
         id: 0,
         title: "Taha's Portfolio",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "A complete frontend design showcasing Taha's previous experience in the industry. Also featuring a fully functional contact form using nodemailer",
         url: "",
       },
       {
         id: 1,
-        title: "Attique's Portfolio",
+        title: "Holy Family Hospital",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "A landing page with sections detailing the hospital's history, departments, and doctor profiles. Also features a book an appointment section.",
         url: "",
       },
       {
         id: 2,
-        title: "Holy Family Hospital",
+        title: "Attique's Portfolio",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "Converted Attique's own figma desin to practical implementation. Showing Attique's abilities in the world of UI/UX design.",
         url: "",
       },
     ],
@@ -114,21 +129,21 @@ const projects = [
         id: 3,
         title: "Amazon Webscrapper",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis.",
         url: "",
       },
       {
         id: 4,
         title: "Web-Crawler",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "It extracts all links and sub-links from a given URL, providing a comprehensive view of the site's structure.",
         url: "",
       },
       {
         id: 5,
         title: "Patient Management System",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "Used Next.js, Appwrite, and Tailwind CSS. The system allows patients to register, select a doctor, upload medical reports, and book appointments. ",
         url: "",
       },
     ],
@@ -140,26 +155,71 @@ const projects = [
     list: [
       {
         id: 6,
-        title: "Patient Management System",
+        title: "Natours - Book Tours",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "A learning project with RESTfull API integration using Node.js with MongoDB. Includes authentication, secutiry, server side rendering and a lot more.",
         url: "",
       },
       {
         id: 7,
-        title: "Natours - Book Tours",
+        title: "Amazon Webscrapper",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis.",
         url: "",
       },
       {
         id: 8,
-        title: "Amazon Webscrapper",
+        title: "Patient Management System",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo, a dictum nibh dignissim bibendum.",
+          "Used Next.js, Appwrite, and Tailwind CSS. The system allows patients to register, select a doctor, upload medical reports, and book appointments. ",
         url: "",
       },
     ],
+  },
+];
+
+const summarizedProjects = [
+  {
+    id: 0,
+    title: "Taha's Portfolio",
+    description:
+      "A complete frontend design showcasing Taha's previous experience in the industry. Also featuring a fully functional contact form using nodemailer",
+    url: "",
+  },
+  {
+    id: 1,
+    title: "Holy Family Hospital",
+    description:
+      "A landing page with sections detailing the hospital's history, departments, and doctor profiles. Also features a book an appointment section.",
+    url: "",
+  },
+  {
+    id: 2,
+    title: "iPhone 15 Website Clone",
+    description:
+      "A fully animated website developed using Next.js, GSAP along with Three.js. It features 3D models of iPhone 15 with beautifull transitions.",
+    url: "",
+  },
+  {
+    id: 3,
+    title: "Amazon Webscrapper",
+    description:
+      "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis.",
+    url: "",
+  },
+  {
+    id: 4,
+    title: "Hostel Management System",
+    description:
+      "A system consisting of two portals: one for students and another for hostel management, designed to streamline essential operations.",
+    url: "",
+  },
+  {
+    id: 5,
+    title: "Portfolio Web app",
+    description:
+      "An animated portfolio website using Next.js. The site features a wide range of animations, including an interactive 3D globe. ",
+    url: "",
   },
 ];
 
@@ -167,34 +227,34 @@ const testimonials = [
   {
     id: 0,
     name: "Taha Aamir",
-    img: profilePic,
+    img: taha,
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo",
+      "I love how Aown created a simple yet captivating website that perfectly parallels my professional ethic and style. The attention to detail, combined with simplicity, was truly amazing. Highly recommend!",
     rating: "",
   },
   {
     id: 1,
     name: "Muhammad Attique",
-    img: profilePic,
+    img: attique,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo",
     rating: "",
   },
-  {
-    id: 2,
-    name: "Muhammad Abdullah",
-    img: profilePic,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo",
-    rating: "",
-  },
+  // {
+  //   id: 2,
+  //   name: "Muhammad Abdullah",
+  //   img: abdullah,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo",
+  //   rating: "",
+  // },
 ];
 
 const footerItems = [
   { id: 0, title: "Instagram", text: "aownaamir007", icon: FaInstagram },
-  { id: 0, title: "website", text: "aown-aamir.vercel.app", icon: TbWorld },
-  { id: 0, title: "gmail", text: "aown.seecs@gmail.com", icon: IoMailOutline },
-  { id: 0, title: "linkedin", text: "aown.seecs@gmail.com", icon: FaLinkedin },
+  { id: 1, title: "website", text: "aown-aamir.vercel.app", icon: TbWorld },
+  { id: 2, title: "gmail", text: "aown.seecs@gmail.com", icon: IoMailOutline },
+  { id: 3, title: "linkedin", text: "aown.seecs@gmail.com", icon: FaLinkedin },
 ];
 
 export {
@@ -202,6 +262,7 @@ export {
   aboutMe,
   workExperience,
   projects,
+  summarizedProjects,
   testimonials,
   footerItems,
 };

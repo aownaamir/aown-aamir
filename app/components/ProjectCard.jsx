@@ -1,16 +1,14 @@
 import Image from "next/image";
-import lhr from "@/public/images/Lahoresq.jpg";
+import lhr from "/public/Lahoresq.jpg";
 
-function ProjectCard({ item, color }) {
+function ProjectCard({ item }) {
   return (
     <div
-      className={`w-[290px]  bg-${color}-950 p-4 flex flex-col items-center gap-3 `}
+      className={`w-[290px]  bg-purple-950 p-4 flex flex-col items-center gap-3 `}
     >
       <div className="w-[268px] h-[268px] relative">
         <div
-          className={`w-[258px] h-[258px] absolute bottom-0 right-0 bg-${
-            color === "slate" ? "purple" : "slate"
-          }-950`}
+          className={`w-[258px] h-[258px] absolute bottom-0 right-0 bg-slate-950`}
         ></div>
         <div
           className={`w-[258px] h-[258px] absolute left-0 top-0 overflow-hidden `}

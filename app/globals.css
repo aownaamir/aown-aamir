@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .profile-shadow {
   box-shadow: 20px 20px 0px 0px rgb(2, 6, 23);
 }
@@ -19,6 +23,9 @@
   width: 18px;
   height: 18px;
   display: block;
+}
+.about-card:hover {
+  box-shadow: none;
 }
 
 .about-card:hover .card-tag {
