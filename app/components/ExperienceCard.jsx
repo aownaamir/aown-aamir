@@ -18,7 +18,7 @@ function ExperienceCard({ item }) {
           <p className="text-xs">
             <FaLocationDot />
           </p>
-          <p className="text-[13.5px]">Islamabad, Pakistan</p>
+          <p className="text-[13.5px]">{item.location}</p>
         </div>
       </div>
     </div>

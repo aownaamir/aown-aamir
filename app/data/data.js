@@ -1,11 +1,17 @@
-import lahore from "/public/Lahoresq.jpg";
-import islamabad from "/public/Islamabadsq.jpg";
-import nust from "/public/NUSTsq.jpg";
-import gcu from "/public/GCUsq.jpg";
+import lahore from "/public/Lhr.jpg";
+import islamabad from "/public/Isb.jpg";
+import nust from "/public/NUST.jpg";
+import gcu from "/public/GCU.jpg";
 import taha from "/public/taha.jpg";
 import attique from "/public/attique.jpeg";
 import abdullah from "/public/abdullah.jpeg";
-import Paint from "../svgs/Paint";
+import tahaAamir from "/public/tahaaamir.png";
+import hospital from "/public/hospital.png";
+import iphone from "/public/iphone.png";
+import tracklib from "/public/tracklib.png";
+import hostel from "/public/hostel.png";
+import portfolio from "/public/portfolio.png";
+import React from "../svgs/React";
 import Web from "../svgs/Web";
 import Freelancer from "../svgs/Freelancer";
 import Engineer from "../svgs/Engineer";
@@ -66,7 +72,8 @@ const workExperience = [
     title: "Lead Frontend Engineer",
     description:
       "Developed frontend for various sites which are currently live, making sites ready to become fully suitable for backend implementation.",
-    svg: Paint,
+    svg: React,
+    location: "Islamabad, Pakistan",
   },
   {
     id: 2,
@@ -74,6 +81,7 @@ const workExperience = [
     description:
       "Focused on both front-end and back-end technologies like React.js, Node.js and Next.js. Worked on web scraping, web crawling, and web animations.",
     svg: Web,
+    location: "Islamabad, Pakistan",
   },
   {
     id: 3,
@@ -81,6 +89,7 @@ const workExperience = [
     description:
       "Providing web development services to both local and global clients. Passionate about creating fully client satisfied products.",
     svg: Freelancer,
+    location: "Remote, Pakistan",
   },
   {
     id: 4,
@@ -88,6 +97,7 @@ const workExperience = [
     description:
       "Conducted research on various topics related to electrical circuits and designed an electrical power component using AutoCAD 3D modeling.",
     svg: Engineer,
+    location: "Lahore, Pakistan",
   },
 ];
 
@@ -184,28 +194,32 @@ const summarizedProjects = [
     title: "Taha's Portfolio",
     description:
       "A complete frontend design showcasing Taha's previous experience in the industry. Also featuring a fully functional contact form using nodemailer",
-    url: "",
+    url: "https://taha-aamir.vercel.app/",
+    img: tahaAamir,
   },
   {
     id: 1,
     title: "Holy Family Hospital",
     description:
       "A landing page with sections detailing the hospital's history, departments, and doctor profiles. Also features a book an appointment section.",
-    url: "",
+    url: "https://holy-family-hospital.vercel.app/",
+    img: hospital,
   },
   {
     id: 2,
     title: "iPhone 15 Website Clone",
     description:
       "A fully animated website developed using Next.js, GSAP along with Three.js. It features 3D models of iPhone 15 with beautifull transitions.",
-    url: "",
+    url: "https://iphone15-eight.vercel.app/",
+    img: iphone,
   },
   {
     id: 3,
     title: "Amazon Webscrapper",
     description:
       "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis.",
-    url: "",
+    url: "https://tracklib-pro.vercel.app/",
+    img: tracklib,
   },
   {
     id: 4,
@@ -213,13 +227,15 @@ const summarizedProjects = [
     description:
       "A system consisting of two portals: one for students and another for hostel management, designed to streamline essential operations.",
     url: "",
+    img: hostel,
   },
   {
     id: 5,
     title: "Portfolio Web app",
     description:
       "An animated portfolio website using Next.js. The site features a wide range of animations, including an interactive 3D globe. ",
-    url: "",
+    url: "https://lagger-s-portfolio.vercel.app/",
+    img: portfolio,
   },
 ];
 
@@ -251,10 +267,34 @@ const testimonials = [
 ];
 
 const footerItems = [
-  { id: 0, title: "Instagram", text: "aownaamir007", icon: FaInstagram },
-  { id: 1, title: "website", text: "aown-aamir.vercel.app", icon: TbWorld },
-  { id: 2, title: "gmail", text: "aown.seecs@gmail.com", icon: IoMailOutline },
-  { id: 3, title: "linkedin", text: "aown.seecs@gmail.com", icon: FaLinkedin },
+  {
+    id: 0,
+    title: "Instagram",
+    text: "aownaamir007",
+    icon: FaInstagram,
+    url: "https://www.linkedin.com/in/aown-aamir/",
+  },
+  {
+    id: 1,
+    title: "website",
+    text: "aown-aamir.vercel.app",
+    icon: TbWorld,
+    url: "https://aown-aamir.vercel.app",
+  },
+  {
+    id: 2,
+    title: "gmail",
+    text: "aown.seecs@gmail.com",
+    icon: IoMailOutline,
+    url: "https://www.linkedin.com/in/aown-aamir/",
+  },
+  {
+    id: 3,
+    title: "linkedin",
+    text: "aown.seecs@gmail.com",
+    icon: FaLinkedin,
+    url: "https://www.linkedin.com/in/aown-aamir/",
+  },
 ];
 
 export {

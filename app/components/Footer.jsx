@@ -12,15 +12,14 @@ function Footer() {
       <div className="flex justify-center items-center">
         <ul className="flex flex-col justify-center items-center lg:items-start gap-2">
           {footerItems.map((item) => (
-            <li
-              key={item.id}
-              className="flex justify-center items-center gap-2"
-            >
-              <span className="text-3xl text-white">
-                <item.icon />
-              </span>
-              <span className="text-lg text-white">{item.text}</span>
-            </li>
+            <a href={item.url} target="_blank" key={item.id}>
+              <li className="flex justify-center items-center gap-2">
+                <span className="text-3xl text-white">
+                  <item.icon />
+                </span>
+                <span className="text-lg text-white">{item.text}</span>
+              </li>
+            </a>
           ))}
         </ul>
       </div>

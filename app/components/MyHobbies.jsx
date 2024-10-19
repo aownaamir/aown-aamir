@@ -9,11 +9,9 @@ function MyHobbies() {
       <h1 className="text-5xl mt-28 lg:mt-20 font-bold text-slate-300 text-center">
         What do I like doing ?
       </h1>
-      <p className="text-white lg:w-[550px] text-center">
-        I was born in an ancient city, did my metriculation from middle-class
-        school and FSC Pre-Engineering from a well recognized college. Currently
-        residing in a new city and pursuing an engineering degree from a
-        Pakistan&apos;s well known university
+      <p className="text-white lg:w-[400px] text-center">
+        When I&apos;m not coding, you can find me exploring new hobbies,
+        reading, or maybe even geeking out about the latest trends in tech.
       </p>
       <div className="flex gap-24 flex-col lg:flex-row my-20 lg:my-0">
         {hobbies.map((item, i) => (
