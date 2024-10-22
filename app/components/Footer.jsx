@@ -3,8 +3,10 @@
 import { footerItems } from "../data/data";
 
 function Footer() {
-  function handleCopyMail(e) {
+  function handleCopyMail(e, title) {
+    if (title !== "gmail") return;
     const email = "aown.seecs@gmail.com";
+    console.log(e);
     e.preventDefault();
     navigator.clipboard
       .writeText(email)
@@ -30,9 +32,7 @@ function Footer() {
               href={item.url}
               target={"_blank"}
               key={item.id}
-              onClick={
-                item.title.startsWith("gmail") ? (e) => handleCopyMail(e) : ""
-              }
+              onClick={(e) => handleCopyMail(e, item.title)}
             >
               <li className="flex justify-center items-center gap-2">
                 <span className="text-3xl text-white">
