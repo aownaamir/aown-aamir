@@ -4,10 +4,7 @@ import ContactForm from "./ContactForm";
 
 function StartAProject() {
   return (
-    <div
-      className="py-20 px-5 bg-slate-950 flex flex-col justify-center items-center gap-20"
-      id="start-a-project"
-    >
+    <div className="py-20 px-5 bg-slate-950 flex flex-col justify-center items-center gap-20">
       <h1 className="text-4xl text-white text-center font-bold capitalize">
         Start a project with me!
       </h1>
@@ -19,7 +16,10 @@ function StartAProject() {
             ))}
           </div>
         </div>
-        <div className="w-full h-[600px] lg:w-[500px] lg:h-[520px] flex justify-center items-center ">
+        <div
+          id="contact"
+          className="w-full h-[600px] lg:w-[500px] lg:h-[520px] flex justify-center items-center "
+        >
           <ContactForm />
         </div>
       </div>

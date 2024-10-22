@@ -14,10 +14,12 @@ function Hero() {
           <p className="text-lg">
             An engineering student with a passion for software development.
           </p>
-          <a href="#start-a-project" htmlFor="start-a-project">
-            <button className="w-[160px] h-[50px] text-sm mt-3 bg-purple-950  ">
-              Start a project
-            </button>
+          <a href="#contact">
+            <label htmlFor="name">
+              <button className="w-[160px] h-[50px] text-sm mt-3 bg-purple-950  ">
+                Start a project
+              </button>
+            </label>
           </a>
         </div>
       </div>

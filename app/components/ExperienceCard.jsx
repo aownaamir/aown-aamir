@@ -14,12 +14,12 @@ function ExperienceCard({ item }) {
         <p className="text-white text-sm italic text-left">
           {item.description}
         </p>
-        <div className=" text-slate-400 italic text-xs right-10 bottom-0 flex gap-1">
-          <p className="text-xs">
+        <div className=" text-slate-400 italic text-xs flex gap-1">
+          <p className="text-xs whitespace-nowrap">
             <FaLocationDot />
           </p>
-          <p>{item.institute},</p>
-          <p className="text-[13.5px]">{item.location}</p>
+          <p className="whitespace-nowrap">{item.institute},</p>
+          <p className="text-[13.5px] whitespace-nowrap">{item.location}</p>
         </div>
       </div>
     </div>

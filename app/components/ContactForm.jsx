@@ -57,7 +57,7 @@ function ContactForm() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
-        <div className="w-[270px] lg:w-[340px] h-[30px] flex gap-0 lg:gap-2 justify-start items-center">
+        <div className="w-[270px] lg:w-[340px] h-[30px] flex gap-3 justify-start items-center">
           <label htmlFor="" className="text-white italic text-[16px]">
             Rate my website
           </label>
