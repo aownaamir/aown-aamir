@@ -16,6 +16,9 @@ module.exports = {
         "theme-purple": "rgb(59,7,100)",
         "theme-slate": "rgb(2,6,23)",
       },
+      screens: {
+        xl: "2480px",
+      },
     },
   },
   plugins: [],

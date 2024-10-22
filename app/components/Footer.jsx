@@ -1,6 +1,20 @@
+"use client";
+
 import { footerItems } from "../data/data";
 
 function Footer() {
+  function handleCopyMail(e) {
+    const email = "aown.seecs@gmail.com";
+    e.preventDefault();
+    navigator.clipboard
+      .writeText(email)
+      .then(() => {
+        alert("Email copied to clipboard!");
+      })
+      .catch((err) => {
+        console.error("Failed to copy email: ", err);
+      });
+  }
   return (
     <div className="h-screen lg:h-[50vh] px-5 bg-purple-950 flex flex-col lg:flex-row justify-center items-center gap-36 text-center">
       <div className="flex flex-col justify-center items-center">
@@ -12,7 +26,14 @@ function Footer() {
       <div className="flex justify-center items-center">
         <ul className="flex flex-col justify-center items-center lg:items-start gap-2">
           {footerItems.map((item) => (
-            <a href={item.url} target="_blank" key={item.id}>
+            <a
+              href={item.url}
+              target={"_blank"}
+              key={item.id}
+              onClick={
+                item.title.startsWith("gmail") ? (e) => handleCopyMail(e) : ""
+              }
+            >
               <li className="flex justify-center items-center gap-2">
                 <span className="text-3xl text-white">
                   <item.icon />

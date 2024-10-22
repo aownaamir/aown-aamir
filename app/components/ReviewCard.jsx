@@ -13,7 +13,7 @@ function ReviewCard({ item }) {
       </div>
       <div className="w-[270px] flex flex-col gap-1">
         <h2 className="text-white font-bold text-md">{item.name}</h2>
-        <p className="text-white italic text-sm line-clamp-3">{item.review}</p>
+        <p className="text-white italic text-sm">{item.review}</p>
         <p className="flex text-white gap-[2px]">
           <StarFull className="w-[17px] h-[17px]" />
           <StarFull className="w-[17px] h-[17px]" />

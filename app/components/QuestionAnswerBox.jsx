@@ -7,7 +7,7 @@ const playfairDisplay = Playfair_Display({
 });
 function QuestionAnswerBox({ text }) {
   return (
-    <div className="w-[250px] h-[150px] hobby-card overflow-hidden px-3 border-4 border-slate-950 flex flex-col justify-center items-center relative transition-all duration-300">
+    <div className="w-[250px] h-[150px] md:w-[200px] md:h-[120px] lg:w-[250px] lg:h-[150px] hobby-card overflow-hidden px-3 border-4 border-slate-950 flex flex-col justify-center items-center relative transition-all duration-300">
       <div className="flex justify-center items-center">
         <h3 className="text-[27px] text-slate-300 font-bold capitalize">
           {text}

@@ -17,7 +17,7 @@ function StarRating({ rating, setRating }) {
   return (
     <div className="flex justify-center items-center gap-2">
       <div className="star-container">
-        {Array.from({ length: 10 }, (_, i) => (
+        {Array.from({ length: 5 }, (_, i) => (
           <Star
             key={i}
             full={tempRating >= i + 1}

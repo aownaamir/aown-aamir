@@ -1,9 +1,9 @@
-import { IoLocationOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import { HiOfficeBuilding } from "react-icons/hi";
 
 function ExperienceCard({ item }) {
   return (
-    <div className="w-[320px]  lg:w-[460px] h-32 flex justify-between items-center">
+    <div className="w-[320px]  lg:w-[460px] h-44 flex justify-between items-center">
       <div>
         <item.svg className="w-[60px] h-[60px] lg:w-[80px] lg:h-[80px] fill-white" />
       </div>
@@ -18,6 +18,7 @@ function ExperienceCard({ item }) {
           <p className="text-xs">
             <FaLocationDot />
           </p>
+          <p>{item.institute},</p>
           <p className="text-[13.5px]">{item.location}</p>
         </div>
       </div>

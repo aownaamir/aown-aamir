@@ -7,7 +7,7 @@ function Projects() {
         <h1 className="text-4xl text-white font-bold capitalize">
           My Projects
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-x-16 gap-y-20">
           {summarizedProjects.map((item) => (
             <ProjectCard key={item.id} item={item} />
           ))}

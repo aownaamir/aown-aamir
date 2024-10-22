@@ -19,35 +19,35 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { IoMailOutline } from "react-icons/io5";
 
-const hobbies = ["swimming", "coding", "horse riding"];
+const hobbies = ["swimming", "travelling", "horse riding"];
 
 const aboutMe = [
   {
     id: 0,
     title: "Lahore",
     description:
-      "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+      "I Was born and raised in an ancient city called Lahore. Did my primary and high shcool education from Lahore",
     img: lahore,
   },
   {
     id: 1,
     title: "GCU",
     description:
-      "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+      "Did FSC-Pre engineering from Government College University Lahore, a well recognized institute in the city",
     img: gcu,
   },
   {
     id: 2,
     title: "NUST",
     description:
-      "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+      "Did bachelors in engineering from National University of Sciences and Technology, persued engineering along with software",
     img: nust,
   },
   {
     id: 3,
     title: "Islamabad",
     description:
-      "I Was born and raised in an ancient city called Lahore. Majority part of my life is spent living in Lahore.",
+      "Spent one of my life's chapter in a new city Islambdad where I specifically went to do my bachelors degree",
     img: islamabad,
   },
   // {
@@ -73,7 +73,8 @@ const workExperience = [
     description:
       "Developed frontend for various sites which are currently live, making sites ready to become fully suitable for backend implementation.",
     svg: React,
-    location: "Islamabad, Pakistan",
+    location: "Islamabad Pakistan",
+    institute: "Self Employed",
   },
   {
     id: 2,
@@ -81,7 +82,8 @@ const workExperience = [
     description:
       "Focused on both front-end and back-end technologies like React.js, Node.js and Next.js. Worked on web scraping, web crawling, and web animations.",
     svg: Web,
-    location: "Islamabad, Pakistan",
+    location: "Islamabad Pakistan",
+    institute: "EMRChains NSTP",
   },
   {
     id: 3,
@@ -89,7 +91,8 @@ const workExperience = [
     description:
       "Providing web development services to both local and global clients. Passionate about creating fully client satisfied products.",
     svg: Freelancer,
-    location: "Remote, Pakistan",
+    location: "Remote Pakistan",
+    institute: "Freelance",
   },
   {
     id: 4,
@@ -97,7 +100,8 @@ const workExperience = [
     description:
       "Conducted research on various topics related to electrical circuits and designed an electrical power component using AutoCAD 3D modeling.",
     svg: Engineer,
-    location: "Lahore, Pakistan",
+    location: "Lahore Pakistan",
+    institute: "NESPAK",
   },
 ];
 
@@ -245,7 +249,7 @@ const testimonials = [
     name: "Taha Aamir",
     img: taha,
     review:
-      "I love how Aown created a simple yet captivating website that perfectly parallels my professional ethic and style. The attention to detail, combined with simplicity, was truly amazing. Highly recommend!",
+      "I love how Aown created a simple yet captivating website that perfectly parallels my professional ethic and style. Highly recommend!",
     rating: "",
   },
   {
@@ -253,7 +257,7 @@ const testimonials = [
     name: "Muhammad Attique",
     img: attique,
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec facilisis augue. Nullam dignissim porta leo",
+      "Loved the portfolio website, the asethetic sence that was used and how smoothly the information is presented.",
     rating: "",
   },
   // {
@@ -270,9 +274,9 @@ const footerItems = [
   {
     id: 0,
     title: "Instagram",
-    text: "aownaamir007",
+    text: "lagger.s_lab",
     icon: FaInstagram,
-    url: "https://www.linkedin.com/in/aown-aamir/",
+    url: "https://www.instagram.com/lagger.s_lab/",
   },
   {
     id: 1,
@@ -286,7 +290,7 @@ const footerItems = [
     title: "gmail",
     text: "aown.seecs@gmail.com",
     icon: IoMailOutline,
-    url: "https://www.linkedin.com/in/aown-aamir/",
+    url: "",
   },
   {
     id: 3,
