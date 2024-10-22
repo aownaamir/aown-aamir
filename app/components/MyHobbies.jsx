@@ -13,7 +13,7 @@ function MyHobbies() {
         When I&apos;m not coding, you can find me exploring new hobbies, maybe
         even geeking out about the latest trends in tech.
       </p>
-      <div className="flex gap-24 md:gap-10 lg:gap-20 flex-col md:flex-row my-20 md:my-0">
+      <div className="flex gap-24 md:gap-10 lg:gap-20 flex-col md:flex-row">
         {hobbies.map((item, i) => (
           <QuestionAnswerBox key={i} text={item} />
         ))}

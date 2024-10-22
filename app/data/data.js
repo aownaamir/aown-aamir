@@ -26,21 +26,21 @@ const aboutMe = [
     id: 0,
     title: "Lahore",
     description:
-      "I Was born and raised in an ancient city called Lahore. Did my primary and high shcool education from Lahore",
+      "I was born and raised in an ancient city called Lahore. Did my primary and high shcool education from Lahore",
     img: lahore,
   },
   {
     id: 1,
     title: "GCU",
     description:
-      "Did FSC-Pre engineering from Government College University Lahore, a well recognized institute in the city",
+      "Did FSC Pre-Engineering from Government College University (GCU) Lahore, a well recognized institute in the city",
     img: gcu,
   },
   {
     id: 2,
     title: "NUST",
     description:
-      "Did bachelors in engineering from National University of Sciences and Technology, persued engineering along with software",
+      "Currently doing bachelors in engineering from National University of Sciences and Technology, persued engineering along with software",
     img: nust,
   },
   {
