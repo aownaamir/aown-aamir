@@ -17,9 +17,10 @@ function ProjectCard({ item }) {
         <a
           href={`${item.url}`}
           target="_blank"
-          className="text-xs text-white italic underline underline-offset-8"
+          className="visit text-xs text-white italic underline-offset-8 flex justify-center items-center flex-col  transition-all duration-300"
         >
-          Visit live site &rarr;
+          <p>Visit live site &rarr;</p>
+          <div className="line w-0  mt-1 border border-purple-950  transition-all duration-300"></div>
         </a>
       </div>
     </div>

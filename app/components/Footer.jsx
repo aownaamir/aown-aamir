@@ -26,7 +26,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <ul className="flex flex-col justify-center items-center lg:items-start gap-2">
+        <ul className="flex flex-col justify-center items-center lg:items-start gap-1">
           {footerItems.map((item) => (
             <a
               href={item.url}
@@ -34,11 +34,14 @@ function Footer() {
               key={item.id}
               onClick={(e) => handleCopyMail(e, item.title)}
             >
-              <li className="flex justify-center items-center gap-2">
-                <span className="text-3xl text-white">
-                  <item.icon />
-                </span>
-                <span className="text-lg text-white">{item.text}</span>
+              <li className="flex flex-col link items-center">
+                <div className="flex justify-center items-center gap-2">
+                  <span className="text-3xl text-white">
+                    <item.icon />
+                  </span>
+                  <span className="text-lg text-white">{item.text}</span>
+                </div>
+                <div className="link-line w-0 mt-[4px] border border-purple-950 transition-all duration-300"></div>
               </li>
             </a>
           ))}

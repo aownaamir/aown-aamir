@@ -6,6 +6,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.visit:hover .line {
+  @apply w-full border-white;
+}
+.link:hover .link-line {
+  @apply w-full border-white;
+}
+
 .profile-shadow {
   box-shadow: 20px 20px 0px 0px rgb(2, 6, 23);
 }
