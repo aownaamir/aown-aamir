@@ -10,15 +10,6 @@ function ProjectCard({ item }) {
         className={`w-full h-[150px] overflow-hidden border-4 border-stone-500`}
       >
         <Image src={item.img} alt="" className="w-full" />
-
-        {/* <div
-          className={`w-[258px] h-[258px] absolute bottom-0 right-0 bg-slate-950`}
-        ></div> */}
-        {/* <div
-          className={`w-[258px] h-[258px] absolute left-0 top-0 overflow-hidden `}
-        >
-          <Image src={item.img} alt="" className="w-full" />
-        </div> */}
       </div>
       <div className="mt-3 flex flex-col gap-3 justify-center items-center">
         <h2 className="text-white text-lg font-semibold ">{item.title}</h2>
@@ -26,7 +17,7 @@ function ProjectCard({ item }) {
         <a
           href={`${item.url}`}
           target="_blank"
-          className=" italic text-xs text-slate-400"
+          className="text-xs text-white italic underline underline-offset-8"
         >
           Visit live site &rarr;
         </a>

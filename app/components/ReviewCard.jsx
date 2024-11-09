@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StarFull from "../svgs/StarFull";
+import Star from "./Star";
 
 function ReviewCard({ item }) {
   return (
@@ -14,12 +15,12 @@ function ReviewCard({ item }) {
       <div className="w-[270px] flex flex-col gap-1">
         <h2 className="text-white font-bold text-md">{item.name}</h2>
         <p className="text-white italic text-sm">{item.review}</p>
-        <p className="flex text-white gap-[2px]">
-          <StarFull className="w-[17px] h-[17px]" />
-          <StarFull className="w-[17px] h-[17px]" />
-          <StarFull className="w-[17px] h-[17px]" />
-          <StarFull className="w-[17px] h-[17px]" />
-          <StarFull className="w-[17px] h-[17px]" />
+        <p className="flex text-white">
+          <Star full={5} />
+          <Star full={5} />
+          <Star full={5} />
+          <Star full={5} />
+          <Star full={5} />
         </p>
       </div>
     </div>
