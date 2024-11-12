@@ -26,28 +26,28 @@ const aboutMe = [
     id: 0,
     title: "Lahore",
     description:
-      "I was born and raised in an ancient city called Lahore. Did my primary and high shcool education from Lahore",
+      "I was born and raised in the heart of Pakistan, the city of Lahore, where I completed my middle and high school education",
     img: lahore,
   },
   {
     id: 1,
     title: "GCU",
     description:
-      "Did FSC Pre-Engineering from Government College University (GCU) Lahore, a well recognized institute in the city",
+      "I pursued my FSc in Pre-Engineering at Government College University (GCU) Lahore, one of the city's most prestigious institutions",
     img: gcu,
   },
   {
     id: 2,
     title: "NUST",
     description:
-      "Currently doing bachelors in engineering from National University of Sciences and Technology, persued engineering along with software",
+      "I am currently pursuing a bachelor's degree in Electrical Engineering at the National University of Sciences and Technology (NUST), with a focus on both engineering & software development",
     img: nust,
   },
   {
     id: 3,
     title: "Islamabad",
     description:
-      "Spent one of my life's chapter in a new city Islambdad where I specifically went to do my bachelors degree",
+      "I began a new chapter of my life in the capital, moving here primarily to pursue my bachelor's degree",
     img: islamabad,
   },
   // {
@@ -73,7 +73,7 @@ const workExperience = [
     description:
       "Developed frontend for various sites which are currently live, making sites ready to become fully suitable for backend implementation.",
     svg: React,
-    location: "Islamabad Pakistan",
+    location: "Islamabad, Pakistan",
     institute: "Self Employed",
   },
   {
@@ -82,7 +82,7 @@ const workExperience = [
     description:
       "Focused on both front-end and back-end technologies like React.js, Node.js and Next.js. Worked on web scraping, web crawling, and web animations.",
     svg: Web,
-    location: "Islamabad Pakistan",
+    location: "Islamabad, Pakistan",
     institute: "EMRChains NSTP",
   },
   {
@@ -91,7 +91,7 @@ const workExperience = [
     description:
       "Providing web development services to both local and global clients. Passionate about creating fully client satisfied products.",
     svg: Freelancer,
-    location: "Remote Pakistan",
+    location: "Remote, Pakistan",
     institute: "Freelance",
   },
   {
@@ -100,7 +100,7 @@ const workExperience = [
     description:
       "Conducted research on various topics related to electrical circuits and designed an electrical power component using AutoCAD 3D modeling.",
     svg: Engineer,
-    location: "Lahore Pakistan",
+    location: "Lahore, Pakistan",
     institute: "NESPAK",
   },
 ];
@@ -205,7 +205,7 @@ const summarizedProjects = [
     id: 1,
     title: "Holy Family Hospital",
     description:
-      "A landing page with sections detailing the hospital's history, departments, and doctor profiles. Also features a book an appointment section.",
+      "An interactive landing page with sections detailing the hospital's history, departments, and doctor profiles. Also features a section for booking an appointment",
     url: "https://holy-family-hospital.vercel.app/",
     img: hospital,
   },
@@ -213,7 +213,7 @@ const summarizedProjects = [
     id: 2,
     title: "iPhone 15 Website Clone",
     description:
-      "A fully animated website developed using Next.js, GSAP along with Three.js. It features 3D models of iPhone 15 with beautifull transitions.",
+      "A fully animated website developed using Next.js, GSAP along with Three.js. It features 3D models of iPhone 15 with beautifull transitions",
     url: "https://iphone15-eight.vercel.app/",
     img: iphone,
   },
@@ -221,7 +221,7 @@ const summarizedProjects = [
     id: 3,
     title: "Amazon Webscrapper",
     description:
-      "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis.",
+      "The tool extracts all relevant data from a provided Amazon product URL and stores the information in a database for further analysis",
     url: "https://tracklib-pro.vercel.app/",
     img: tracklib,
   },
@@ -229,7 +229,7 @@ const summarizedProjects = [
     id: 4,
     title: "Hostel Management System",
     description:
-      "A system consisting of two portals: one for students and another for hostel management, designed to streamline essential operations.",
+      "A system consisting of two portals: one for students and another for hostel management, designed to streamline essential operations",
     url: "",
     img: hostel,
   },
@@ -237,7 +237,7 @@ const summarizedProjects = [
     id: 5,
     title: "Portfolio Web app",
     description:
-      "An animated portfolio website using Next.js. The site features a wide range of animations, including an interactive 3D globe. ",
+      "An animated portfolio website using Next.js. The site features a wide range of animations, including an interactive 3D globe",
     url: "https://lagger-s-portfolio.vercel.app/",
     img: portfolio,
   },
@@ -257,7 +257,7 @@ const testimonials = [
     name: "Muhammad Attique",
     img: attique,
     review:
-      "Loved the portfolio website, the asethetic sence that was used and how smoothly the information is presented.",
+      "Loved the portfolio website, the aesthetic sense that was used and how smoothly the information is presented.",
     rating: "",
   },
   // {

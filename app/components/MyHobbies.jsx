@@ -10,8 +10,8 @@ function MyHobbies() {
         What do I like doing ?
       </h1>
       <p className="text-white lg:w-[400px] text-center">
-        When I&apos;m not coding, you can find me exploring new hobbies, maybe
-        even geeking out about the latest trends in tech.
+        When I&apos;m not coding, you&apos;ll find me exploring new hobbies or
+        geeking out over the latest trends in tech.
       </p>
       <div className="flex gap-24 md:gap-10 lg:gap-20 flex-col md:flex-row">
         {hobbies.map((item, i) => (
