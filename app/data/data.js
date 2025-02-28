@@ -15,11 +15,25 @@ import React from "../svgs/React";
 import Web from "../svgs/Web";
 import Freelancer from "../svgs/Freelancer";
 import Engineer from "../svgs/Engineer";
+import Html from "../svgs/Html";
+import Css from "../svgs/Css";
+import Javascript from "../svgs/Javascript";
+// import React from "../svgs/React";
+import Node from "../svgs/Node";
+import Express from "../svgs/Express";
+import Mongodb from "../svgs/Mongodb";
+import Mongoose from "../svgs/Mongoose";
+import TailwindCss from "../svgs/TailwindCss";
+import ReactNative from "../svgs/ReactNative";
+import Next from "../svgs/Next";
+import Git from "../svgs/Git";
+import Github from "../svgs/Github";
+import Udemy from "../svgs/Udemy";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import { IoMailOutline } from "react-icons/io5";
 
-const hobbies = ["swimming", "travelling", "horse riding"];
+const hobbies = ["swimming", "travelling", "Workout"];
 
 const aboutMe = [
   {
@@ -243,6 +257,53 @@ const summarizedProjects = [
   },
 ];
 
+const skills = [
+  { id: 0, title: "HTML", svg: Html, color: "#E34C26" },
+  { id: 1, title: "CSS", svg: Css, color: "#264DE4" },
+  { id: 2, title: "Javascript", svg: Javascript, color: "#F7DF1E" },
+  { id: 3, title: "React.js", svg: React, color: "#61DAFB" },
+  { id: 4, title: "Node.js", svg: Node, color: "#215732" },
+  { id: 5, title: "Express.js", svg: Express, color: "#808080" },
+  { id: 6, title: "MongoDB", svg: Mongodb, color: "#808080" },
+  { id: 7, title: "Mongoose", svg: Mongoose, color: "#880000" },
+  { id: 8, title: "Git", svg: Git, color: "#F1502F" },
+  { id: 9, title: "Github", svg: Github, color: "#FFFFFF" },
+  // { id: 10, title: "React native", svg: ReactNative, color: "#61DAFB" },
+  { id: 11, title: "Tailwind CSS", svg: TailwindCss, color: "#06B6D4" },
+  { id: 12, title: "Next.js", svg: Next, color: "#FFFFFF" },
+];
+
+const courses = [
+  {
+    id: 0,
+    title: "Node.js, Express, MongoDB & More: The Complete Bootcamp",
+    instructor: "jonas schmedtmann",
+    platform: "udemy",
+    svg: Udemy,
+  },
+  {
+    id: 1,
+    title: "The Ultimate React Course 2024: React, Next.js, Redux & More",
+    instructor: "jonas schmedtmann",
+    platform: "udemy",
+    svg: Udemy,
+  },
+  {
+    id: 2,
+    title: "React Native - The Practical Guide [2025]",
+    instructor: "Maximilian Schwarzmüller",
+    platform: "udemy",
+    svg: Udemy,
+  },
+  {
+    id: 3,
+    title: "The Complete Full-Stack Web Development Bootcamp",
+    instructor: "Dr. Angela Yu",
+    platform: "udemy",
+    svg: Udemy,
+  },
+];
+
 const testimonials = [
   {
     id: 0,
@@ -307,6 +368,8 @@ export {
   workExperience,
   projects,
   summarizedProjects,
+  skills,
+  courses,
   testimonials,
   footerItems,
 };
