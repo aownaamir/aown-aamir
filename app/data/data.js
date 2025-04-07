@@ -24,10 +24,11 @@ import Express from "../svgs/Express";
 import Mongodb from "../svgs/Mongodb";
 import Mongoose from "../svgs/Mongoose";
 import TailwindCss from "../svgs/TailwindCss";
-import ReactNative from "../svgs/ReactNative";
+import ReactNative from "../svgs/ReactNative2";
 import Next from "../svgs/Next";
 import Git from "../svgs/Git";
 import Github from "../svgs/Github";
+import Expo from "../svgs/Expo";
 import Udemy from "../svgs/Udemy";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
@@ -268,9 +269,10 @@ const skills = [
   { id: 7, title: "Mongoose", svg: Mongoose, color: "#880000" },
   { id: 8, title: "Git", svg: Git, color: "#F1502F" },
   { id: 9, title: "Github", svg: Github, color: "#FFFFFF" },
-  // { id: 10, title: "React native", svg: ReactNative, color: "#61DAFB" },
-  { id: 11, title: "Tailwind CSS", svg: TailwindCss, color: "#06B6D4" },
-  { id: 12, title: "Next.js", svg: Next, color: "#FFFFFF" },
+  { id: 10, title: "Tailwind CSS", svg: TailwindCss, color: "#06B6D4" },
+  { id: 11, title: "Next.js", svg: Next, color: "#FFFFFF" },
+  { id: 12, title: "React native", svg: ReactNative, color: "#61DAFB" },
+  { id: 13, title: "Expo", svg: Expo, color: "#61DAFB" },
 ];
 
 const courses = [
