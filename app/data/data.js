@@ -8,6 +8,7 @@ import abdullah from "/public/abdullah.jpeg";
 import tahaAamir from "/public/tahaaamir.png";
 import hospital from "/public/hospital.png";
 import iphone from "/public/iphone.png";
+import caredrive from "/public/caredrive.png";
 import tracklib from "/public/tracklib.png";
 import hostel from "/public/hostel.png";
 import portfolio from "/public/portfolio.png";
@@ -242,11 +243,11 @@ const summarizedProjects = [
   },
   {
     id: 4,
-    title: "Hostel Management System",
+    title: "Patient Management System",
     description:
-      "A system consisting of two portals: one for students and another for hostel management, designed to streamline essential operations",
-    url: "",
-    img: hostel,
+      "A system that allows patients to register, select a doctor, upload medical reports, and book appointments",
+    url: "https://care-drive.vercel.app/",
+    img: caredrive,
   },
   {
     id: 5,
